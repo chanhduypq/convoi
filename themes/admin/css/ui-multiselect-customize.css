@@ -1,0 +1,21 @@
+
+button.ui-multiselect.ui-widget.ui-state-default.ui-corner-all{
+    width: 210px !important;
+}
+button.ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-icon-only.ui-dialog-titlebar-close{
+    display: none !important;
+}
+
+#skel-layers-inactiveWrapper {
+    display: none !important;
+}
+
+
+.row0-HDli.date{
+    padding-left: 2px !important;
+}
+
+
+
+
+

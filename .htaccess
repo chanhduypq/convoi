@@ -1,0 +1,15 @@
+RewriteEngine on
+
+
+# Specify the folder in which the application resides.
+# Use / if the application is in the root.
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^.*$ index.php [L]
+
+RewriteCond %{HTTP_REFERER} !^http://(www\.)?convoi.mns.local/ [NC] 
+RewriteCond %{HTTP_REFERER} !^http://(www\.)?convoi.mns.local/.*$ [NC] 
+#RewriteCond %{HTTP_REFERER} !^http://(www\.)?newgin-square.com/ [NC] 
+#RewriteCond %{HTTP_REFERER} !^http://(www\.)?newgin-square.com/.*$ [NC]
+RewriteRule \.(jpg|jpeg|png|gif)$ - [F]

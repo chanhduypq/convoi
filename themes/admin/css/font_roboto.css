@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+    font-family: 'roboto_regular';
+    src: url('../fonts/roboto/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}

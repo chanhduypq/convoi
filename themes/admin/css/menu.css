@@ -1,0 +1,416 @@
+#nav-left{
+    float:left; 
+    width:15%;
+/*    height:95% !important;*/
+    height:77% !important;
+    background-color: #2d353c; 
+    text-align:left; 
+    color:#bcbebf; 
+    position:fixed;
+/*    max-height: 549px;*/
+    max-height: 85%;   
+    overflow-y: auto;
+    bottom: 10%;
+}
+#nav-left::-webkit-scrollbar {
+    width: 10px;        
+}
+#nav-left::-webkit-scrollbar-thumb { 
+    background-color: #2d353c;
+}
+#nav-left::-webkit-scrollbar-button {
+    background: #2d353c;
+}
+#nav-left::-webkit-scrollbar-track-piece {
+    background: #888;
+}
+/*#nav-left::-moz-scrollbar {
+    width: 10px;        
+}
+#nav-left::-moz-scrollbar-thumb { 
+    background-color: #2d353c;
+}
+#nav-left::-moz-scrollbar-button {
+    background: #2d353c;
+}
+#nav-left::-moz-scrollbar-track-piece {
+    background: #888;
+}*/
+#nav-left-parent{
+    float:left; 
+    width:15%;
+    height:100% !important;
+    background-color: #2d353c; 
+    text-align:left;
+    position:fixed;
+}
+#nav-left{
+    width: inherit;
+}
+
+#nav-left .li600{
+    height:600px;	
+}
+
+.nav-ncc a {
+    color: #bcbebf;
+    text-decoration: none;
+}
+
+.nav-ncc {
+    background: url(../images/icon-ncc.png) left center no-repeat;
+    background-position: 25px 18px;
+    background-color: #1e2429;
+    padding: 30px 0 30px 80px;
+    margin-bottom: 1px;
+    color: #bcbebf;
+    font-size: 17px;
+}
+
+.nav-ncc a:hover{
+    color:#00acac;
+    text-decoration:none;
+    cursor:pointer;
+}
+.nav-ncc:hover{
+    background:url(../images/icon-ncc-over.png) left center no-repeat; 
+    background-position:25px 18px; 
+    background-color:#000;
+    cursor:pointer;
+}
+
+.active-ncc a{
+    color:#00acac;
+    text-decoration:none;
+    cursor:pointer;
+}
+.active-ncc{
+    background:url(../images/icon-ncc-over.png) left center no-repeat; 
+    background-position:25px 18px; 
+    background-color:#000;
+    cursor:pointer;
+}
+
+.sub-navegater {
+    /*    display: none;*/
+    background: url(../images/icon-sub-menu.png) left center no-repeat;
+/*    background-position: 60px 0px;*/
+    background-position: 35px 0px;
+    height: 52px;
+/*    padding: 20px 0 0 80px;*/
+    padding: 20px 0 0 50px;
+    font-size: 17px;
+    color: #bcbebf;
+    cursor: pointer;
+}
+.sub-navegater:hover{
+    background:url(../images/icon-sub-menu-over.png) left center no-repeat; 
+/*    background-position:60px 0px; */
+    background-position: 35px 0px;
+    background-color:#384550;
+    cursor:pointer;
+}
+.sub-navegater a{
+    color:#bcbebf;
+    text-decoration:none;
+    cursor:pointer;
+}
+.sub-navegater a:hover{
+    color:#00acac;
+    text-decoration:none;
+    cursor:pointer;
+}
+.active-sub-navegater a{
+    color:#00acac;
+    text-decoration:none;
+    cursor:pointer;
+}
+.active-sub-navegater{
+    background:url(../images/icon-sub-menu-over.png) left center no-repeat; 
+/*    background-position:60px 0px; */
+    background-position: 35px 0px;
+    background-color:#384550;
+    cursor:pointer;
+}
+.nav-adminsetting {
+    background: url(../images/icon-admin-setting.png) left center no-repeat;
+    background-position: 25px 18px;
+    background-color: #1e2429;
+    padding: 30px 0 30px 80px;
+    margin-bottom: 1px;
+    color: #bcbebf;
+    font-size: 17px;
+}
+.nav-adminsetting a{
+    color:#bcbebf;
+    text-decoration:none;
+}
+.nav-adminsetting a:hover{
+    color:#00acac;
+    text-decoration:none;
+    cursor:pointer;
+}
+.nav-adminsetting:hover{
+    background:url(../images/icon-admin-setting-over.png) left center no-repeat; 
+    background-position:25px 18px; 
+    background-color:#000;
+    cursor:pointer;
+}
+.active-adminsetting a{
+    color:#00acac;
+    text-decoration:none;
+    cursor:pointer;
+}
+.active-adminsetting{
+    background:url(../images/icon-admin-setting-over.png) left center no-repeat; 
+    background-position:25px 18px; 
+    background-color:#000;
+    cursor:pointer;
+}
+.nav-hoadon{
+    background:url(../images/icon-hoa-don.png) left center no-repeat; 
+    background-position:25px 18px; 
+    background-color:#1e2429; 
+    padding:30px 0 30px 80px; 
+    margin-bottom:1px;
+    color:#bcbebf;
+    font-size:17px;
+}
+.nav-hoadon a{
+    color:#bcbebf;
+    text-decoration:none;
+}
+.nav-hoadon a:hover{
+    color:#00acac;
+    text-decoration:none;
+    cursor:pointer;
+}
+.nav-hoadon:hover{
+    background:url(../images/icon-hoa-don-over.png) left center no-repeat; 
+    background-position:25px 18px; 
+    background-color:#000;
+    cursor:pointer;
+}
+
+.nav-hoadon1{
+    background:url(../images/icon-nhap-kho.png) left center no-repeat;
+    background-position:25px 18px;
+    background-color:#1e2429;
+    padding:30px 0 30px 80px;
+    margin-bottom:1px;
+    color:#bcbebf;
+    font-size:17px;
+}
+.nav-hoadon1 a{
+    color:#bcbebf;
+    text-decoration:none;
+}
+.nav-hoadon1 a:hover{
+    color:#00acac;
+    text-decoration:none;
+    cursor:pointer;
+}
+.nav-hoadon1:hover{
+    background:url(../images/icon-nhap-kho-over.png) left center no-repeat;
+    background-position:25px 18px;
+    background-color:#000;
+    cursor:pointer;
+}
+
+.nav-khachhang{
+    background:url(../images/icon-khach-hang.png) left center no-repeat; 
+    background-position:25px 18px; 
+    background-color:#1e2429; 
+    padding:30px 0 30px 80px; 
+    margin-bottom:1px;
+    color:#bcbebf;
+    font-size:17px;
+}
+.nav-thuchi{
+    background:url(../images/icon-tai-khoan.png) left center no-repeat;
+    background-position:25px 18px; 
+    background-color:#1e2429; 
+    padding:30px 0 30px 80px; 
+    margin-bottom:1px;
+    color:#bcbebf;
+    font-size:17px;
+}
+.nav-khachhang a{
+    color:#bcbebf;
+    text-decoration:none;
+}
+.nav-khachhang a:hover{
+    color:#00acac;
+    text-decoration:none;
+    cursor:pointer;
+}
+.nav-khachhang:hover{
+    background:url(../images/icon-khach-hang-over.png) left center no-repeat; 
+    background-position:25px 18px; 
+    background-color:#000;
+    cursor:pointer;
+}
+
+.nav-thuchi a{
+    color:#bcbebf;
+    text-decoration:none;
+}
+.nav-thuchi a:hover{
+    color:#00acac;
+    text-decoration:none;
+    cursor:pointer;
+}
+.nav-thuchi:hover{
+    background:url(../images/icon-tai-khoan-over.png) left center no-repeat;
+    background-position:25px 18px; 
+    background-color:#000;
+    cursor:pointer;
+}
+
+.nav-hanghoa{
+    background:url(../images/icon-hang-hoa.png) left center no-repeat; 
+    background-position:25px 18px; 
+    background-color:#1e2429; 
+    padding:30px 0 30px 80px; 
+    margin-bottom:1px;
+    color:#bcbebf;
+    font-size:17px;
+}
+.nav-hanghoa a{
+    color:#bcbebf;
+    text-decoration:none;
+}
+.nav-hanghoa a:hover{
+    color:#00acac;
+    text-decoration:none;
+    cursor:pointer;
+}
+.nav-hanghoa:hover{
+    background:url(../images/icon-hang-hoa-over.png) left center no-repeat; 
+    background-position:25px 18px; 
+    background-color:#000;
+    cursor:pointer;
+}
+
+
+.active-hoadon a{
+    color:#00acac;
+    text-decoration:none;
+    cursor:pointer;
+}
+.active-hoadon{
+    background:url(../images/icon-hoa-don-over.png) left center no-repeat; 
+    background-position:25px 18px; 
+    background-color:#000;
+    cursor:pointer;
+}
+.active-khachhang a{
+    color:#00acac;
+    text-decoration:none;
+    cursor:pointer;
+}
+.active-khachhang{
+    background:url(../images/icon-khach-hang-over.png) left center no-repeat; 
+    background-position:25px 18px; 
+    background-color:#000;
+    cursor:pointer;
+}
+.active-thuchi{
+    background:url(../images/icon-khach-hang-over.png) left center no-repeat; 
+    background-position:25px 18px; 
+    background-color:#000;
+    cursor:pointer;
+}
+.active-thuchi a{
+    color:#00acac;
+    text-decoration:none;
+    cursor:pointer;
+}
+.active-hanghoa a{
+    color:#00acac;
+    text-decoration:none;
+    cursor:pointer;
+}
+.active-hanghoa{
+    background:url(../images/icon-hang-hoa-over.png) left center no-repeat; 
+    background-position:25px 18px; 
+    background-color:#000;
+    cursor:pointer;
+}
+
+.nav-thongke{
+    background:url(../images/icon-thong-ke.png) left center no-repeat;
+    background-position:25px 18px;
+    background-color:#1e2429; 
+    padding:30px 0 30px 80px; 
+    margin-bottom:1px;
+    color:#bcbebf;
+    font-size:17px;
+}
+.nav-thongke a{
+    color:#bcbebf;
+    text-decoration:none;
+}
+.nav-thongke a:hover{
+    color:#00acac;
+    text-decoration:none;
+    cursor:pointer;
+}
+.nav-thongke:hover{
+    background:url(../images/icon-thong-ke-over.png) left center no-repeat;
+    background-position:25px 18px;
+    background-color:#000;
+    cursor:pointer;
+}
+.active-thongke{
+    background:url(../images/icon-thong-ke-over.png) left center no-repeat; 
+    background-position:25px 18px; 
+    background-color:#000;
+    cursor:pointer;
+}
+.active-thongke a{
+    color:#00acac;
+    text-decoration:none;
+    cursor:pointer;
+}
+
+.nav-socai{
+    background:url(../images/icon-so-cai.png) left center no-repeat;
+    background-position:25px 18px;
+    background-color:#1e2429; 
+    padding:30px 0 30px 80px; 
+    margin-bottom:1px;
+    color:#bcbebf;
+    font-size:17px;
+}
+.nav-socai a{
+    color:#bcbebf;
+    text-decoration:none;
+}
+.nav-socai a:hover{
+    color:#00acac;
+    text-decoration:none;
+    cursor:pointer;
+}
+.nav-socai:hover{
+    background:url(../images/icon-so-cai-over.png) left center no-repeat;
+    background-position:25px 18px;
+    background-color:#000;
+    cursor:pointer;
+}
+.active-socai{
+    background:url(../images/icon-so-cai-over.png) left center no-repeat; 
+    background-position:25px 18px; 
+    background-color:#000;
+    cursor:pointer;
+}
+.active-socai a{
+    color:#00acac;
+    text-decoration:none;
+    cursor:pointer;
+}
+
+.content_children{
+    display: none;
+}
+

@@ -1,0 +1,105 @@
+#search{
+    float:left; 
+    width:60%; 
+    height:40px; 
+    text-align:left; 
+    margin-top:22px; 
+    padding-left:20px;	
+}
+#search .but{
+    float:left; 
+    height:40px; 
+    padding:5px 0px 0 0;	
+}
+#search .text-search{
+    float:left; 
+    height:40px; 
+/*    padding:0px 20px 0 20px; */
+    margin: 0 auto;
+    text-align: center;
+    border-left:1px solid #ccc;	
+    width: 28%;
+}
+#search .text-search button{
+    cursor: pointer;
+}
+#search .text-search a{
+    color:#00acac;
+    text-decoration:none;
+}
+#search .text-search a:hover{
+    color:#00acac;
+    text-decoration:none;
+    cursor:pointer;	
+}
+#search .date {
+    border-left: 0 !important;
+}
+#search .date .new {
+    width: 120px !important;
+    float: left !important;
+    margin: 3px 10px 0 0 !important;
+    padding:5px;
+    border:1px solid #ccc;
+    border-radius:5px;
+    text-align:center;
+    color:#00acac;
+    font-weight:400;
+}
+#search .date .new.hover:hover{
+    background-color: #00cbee;
+    cursor: pointer; 
+    transition: background 1s;
+}
+#search button{
+    text-align: center;
+}
+#search-KH{
+    position:absolute; 
+    width:500px; 
+    height:auto; 
+    left:25%; 
+    background-color:#FFF; 
+    box-shadow:0 0 10px #888; 
+    border-radius:8px; 
+    color:#000; 
+    text-align:left; 
+    padding:25px; 
+    line-height:25px;	
+}
+#search-KH .sinput{
+    width:450px; 
+    height:auto;
+    font-weight:400;
+}
+#search-KH .stext{
+    width:100%; 
+    font-weight:400;
+    padding:5px 0 5px 15px;	
+    margin-top:1px;
+}
+#search-KH .stext:hover{
+    background-color:#d5d5d5;
+    cursor:pointer;
+}
+#search img{
+    width: 100%;
+    height: auto;
+}
+#search li.img{
+    float: left;
+}
+#cancel_filter_date{
+    width: 100%;
+    text-align: center;        
+    vertical-align: middle;
+    display: table-cell;
+    cursor: pointer;
+    margin: 0 auto;
+    padding-top: 7px;
+}
+#cancel_filter_date label:hover{
+    background-color: #00cbee;
+    cursor: pointer; 
+    transition: background 1s;
+}

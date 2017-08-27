@@ -1,0 +1,366 @@
+@CHARSET "ISO-8859-1";
+
+/* Reset CSS */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td, span {
+    font-family:'Roboto', Arial, Helvetica, sans-serif; 
+	padding: 0; 
+	margin: 0; 
+}
+body{
+	font-family:'Roboto', Arial, Helvetica, sans-serif; 
+	text-align:center; 
+}
+a{
+	text-decoration: none; 
+	color: #2696c6;
+}
+table {
+    border-spacing: 0;    
+}
+fieldset, img {
+    border: 0;
+}
+address, caption, cite, code, dfn, em, strong, th, var {
+    font-weight: normal; 
+	font-style: normal;
+}
+strong{
+	font-weight: bold;
+}
+ol, ul, li, p{
+    list-style: none; 
+	margin: 0; 
+	padding: 0;
+}
+span{
+	font-size:15px; 
+	text-align:justify;
+}
+caption, th {
+    text-align: left;
+
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family:'Roboto', Arial, Helvetica, sans-serif; 
+	font-weight: normal; 
+	font-size: 100%; 
+	margin: 0; 
+	padding: 0; 
+	color: #444; 
+}
+q:before, q:after {
+    content:'';
+}
+abbr, acronym { 
+	border: 0;
+}
+.clearfix{
+	clear:both; 
+	list-style:none; 
+	padding:0; 
+	margin:0;
+}
+
+/* Custom CSS */
+body{
+	font-family:'Roboto', Arial, Helvetica, sans-serif; 
+	color: #333; 
+	color: rgba(0,0,0,0.5);
+}
+#main-wrap{
+	width: 100%; 
+	height: auto;
+}
+.maintop-wraptop1{
+	width: 1760px; 
+	height: 620px; 
+	background: url(../images/background-lien-1a.png) center top no-repeat;
+}
+.mainbottom-wrapbottom1{
+	width: 1760px; 
+	height: 620px; 
+	background: url(../images/background-lien-1b.png) center top no-repeat;
+}
+.maintop-wraptop2{
+	width: 1760px; 
+	height: 620px; 
+	background: url(../images/background-lien-2a.png) center top no-repeat;
+}
+.mainbottom-wrapbottom2{
+	width: 1760px; 
+	height: 620px; 
+	background: url(../images/background-lien-2b.png) center top no-repeat;
+}
+
+.div-invoicenumber1{
+	float: left; padding-top:23px;	
+}
+.div-invoicenumber1 .li-1{
+	float: left; width: 115px;
+}
+.div-invoicenumber1 .li-2{
+	float: left; width: 170px;	
+}
+.div-invoicenumber1 .li-sohoadon{
+	float: left; width: 180px; 
+	font-size:16pt; 
+	color: #000; 
+	text-align: left;	
+}
+.div-invoicenumber1 .li-date{
+	float: left; 
+	width: 180px; 
+	font-size:16pt; 
+	color: #000; 
+	text-align: left;	
+}
+.div-invoicenumber1 .input-shd{
+	width:100%; 
+	height:auto; 
+	font-size: 16pt; 
+	text-align:left; 
+	background:none; 
+	border:none; 
+	letter-spacing:1px;
+}
+
+/* So hoa don */
+.div-invoicenumber{
+	float: left; padding-top:23px;	
+}
+.div-invoicenumber .li-1{
+	float: left; width: 215px;
+}
+.div-invoicenumber .li-2{
+	float: left; width: 520px;	
+}
+.div-invoicenumber .li-sohoadon{
+	float: left; width: 180px; 
+	font-size:16pt; 
+	color: #000; 
+	text-align: left;	
+}
+.div-invoicenumber .li-date{
+	float: left; 
+	width: 180px; 
+	font-size:16pt; 
+	color: #000; 
+	text-align: left;	
+}
+.div-invoicenumber .input-shd{
+	width:100%; 
+	height:auto; 
+	font-size: 16pt; 
+	text-align:left; 
+	background:none; 
+	border:none; 
+	letter-spacing:1px;
+}
+
+/* Customer */
+.div-customer{
+	padding-top:46px;	 
+}
+.div-customer .li-c1{
+	float:left; 
+	width:845px;	
+}
+.div-customer .li-c2{
+	float:left; 
+	width:730px;	
+}
+.div-customer .li-c3{
+	float:left; 
+	width:780px;	
+}
+.div-customer .li-customer{
+	float:left; 
+	width:880px; 
+	font-size:16pt; 
+	color:#000; 
+	text-align:left;	
+}
+.div-customer .input-customer{
+	width:100%; 
+	height:auto; 
+	font-size:16pt; 
+	color:#000; 
+	background:none; 
+	border:none;
+}
+.div-customer .li-address{
+	float:left; 
+	width:995px; 
+	font-size:16pt; 
+	color:#000; 
+	padding-top:23px; 
+	text-align:left;	
+}
+.div-customer .input-add{
+	width:100%; 
+	height:auto; 
+	font-size:16pt; 
+	color:#000; 
+	background:none; 
+	border:none;
+}
+.div-customer .li-mst{
+	float:left; 
+	width:400px; 
+	font-size:16pt; 
+	color:#000; 
+	padding-top:25px; 
+	text-align:left;	
+}
+.div-customer .input-mst{
+	width:100%; 
+	height:auto; 
+	font-size:16pt; 
+	color:#000; 
+	background:none; 
+	border:none; 
+	letter-spacing:5px;	
+}
+
+/* Products */
+.div-products{
+	 float:left; 
+	 padding:145px 0 0 60px; 
+	 font-size:16pt; 
+	 color:#000;
+}
+.div-products .div-raw{
+	margin-top:8px;	
+}
+.div-products .div-raw-hidden{
+	overflow:hidden;
+}
+.div-products .li-raw-1, .li-raw-2, .li-raw-3, .li-raw-4, .li-raw-5, .li-raw-6, .li-raw-7, .li-raw-8{
+	float:left; 
+	padding:0 12px;	
+}
+.div-products .li-raw-1{
+	width:50px;
+}
+.div-products .li-raw-2{
+	width:810px;
+}
+.div-products .li-raw-3{
+	width:50px;
+}
+.div-products .li-raw-4{
+	width:60px;
+}
+.div-products .li-raw-5{
+	width:40px;
+}
+.div-products .li-raw-6{
+	width:160px; 
+	padding:0 10px 0 5px;
+}
+.div-products .li-raw-7{
+	width:160px; 
+	padding:0 10px 0 15px;
+}
+.div-products .li-raw-8{
+	width:140px; 
+	padding:0 10px 0 15px;
+}
+.div-products .li-raw-1-input, .li-raw-2-input, .li-raw-3-input, .li-raw-4-input, .li-raw-5-input, .li-raw-6-input{
+	width:100%; 
+	height:auto; 
+	font-size:16pt; 
+	color:#000; 
+	background:none; 
+	border:none;	
+}
+.div-products .li-raw-1-input{
+	text-align:center;
+}
+.div-products .li-raw-2-input{
+	text-align:left;
+}
+.div-products .li-raw-3-input{
+	text-align:center;
+}
+.div-products .li-raw-4-input{
+	text-align:center;
+}
+.div-products .li-raw-5-input{
+	text-align:center;
+}
+.div-products .li-raw-6-input{
+	text-align:right;
+}
+
+/* Payments */
+.div-payment-text{
+	float:left; 
+	width:52%; 
+	height:auto; 
+	font-size:16pt; 
+	color:#000; 
+	text-align:left; 
+	padding-top:43px; 
+	margin-left:60px;
+	letter-spacing:-1px;	
+}
+.div-payment-text-input{
+	width:99%; 
+	height:auto; 
+	font-size:16pt; 
+	color:#000; 
+	text-align:left; 
+	line-height:45px; 
+	background:none; 
+	border:none;
+}
+.div-payment-tien{
+	float:left; 
+	width:42%; 
+	height:auto; 
+	font-size:16pt; 
+	color:#000; 
+	text-align:left;	
+}
+.li-tienhang{
+	float:left;
+	width:180px; 
+	padding:18px 0 0 385px;	
+}
+.li-tienhang-input{
+	width:100%; 
+	height:auto; 
+	font-size:16pt; 
+	color:#000; 
+	text-align:right; 
+	background:none; 
+	border:none;	
+}
+.li-tienvat{
+	float:left; 
+	width:140px; 
+	padding:18px 0 0 25px;	
+}
+.li-tienvat-input{
+	width:100%; 
+	height:auto; 
+	font-size:16pt; 
+	color:#000; 
+	text-align:right; 
+	background:none; 
+	border:none;	
+}
+.li-tongtien{
+	width:250px; 
+	padding:30px 0 0 470px;	
+}
+.li-tongtien-input{
+	width:100%; 
+	height:auto; 
+	font-size:16pt; 
+	color:#000; 
+	text-align:center; 
+	background:none; 
+	border:none;	
+}

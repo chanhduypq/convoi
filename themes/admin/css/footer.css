@@ -1,0 +1,27 @@
+footer{
+    background-color: #CCCCFF;
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    width: 85%;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    padding-top: 15px;
+    margin: 0 15%;
+}
+#footer{
+    background-color:#d5d5d5 !important;
+    position: fixed;
+    bottom: 0;
+    height: 5%;
+    width: 15%;
+    text-align: center !important;
+    margin: 0 auto;
+    font-size:1.25em;
+    font-weight:600;
+    padding-bottom: 2%;
+    padding-top: 0.5%;
+}
+
+

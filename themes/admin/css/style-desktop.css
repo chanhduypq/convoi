@@ -1,0 +1,581 @@
+/* Basic */
+body {
+	background-color:#fbfbfb;
+	height:100% !important;
+}
+h1, h2, h3, h4, h5, h6, ol, ul, li, p{
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+
+
+
+	
+/* Wrappers */
+
+#nav-wrapper{
+	width:100%; 
+	height:100%;
+	font-family: "Roboto" , Verdana, Geneva, sans-serif;
+	padding-top:90px;
+}
+
+/* Logo */
+#logo {
+	float:left;
+	width:15%;
+	height:auto;
+	padding:15px 0 0 0;
+	text-align:center; 
+	background:url(../images/background-drop.png) right top no-repeat;
+}
+
+
+
+
+/* Content Hoa Don */
+#content{
+	float:left; 
+	width:85%;
+/*        new*/
+/*        max-height: 80%;
+        height: 80%;
+        overflow-y: auto;*/
+/*        end new*/
+	padding:25px; 
+	text-align:left;
+	margin-left:15%;
+	background-color: #ededed;
+}
+#content h1{
+	font-size:28px; 
+	text-transform:uppercase; 
+	font-weight:500; 
+	padding:5px 0 15px 0;	
+}
+fieldset {
+    width: 30% !important;
+    height: 50% !important;
+    font-family: sans-serif;
+    border: 5px solid #1F497D;
+    background: #ddd;
+    border-radius: 5px;
+    padding: 10px;   
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+fieldset legend {
+    background: #1F497D;
+    color: #fff;
+    padding: 5px 10px ;
+    font-size: 16px;
+    border-radius: 5px;
+    box-shadow: 0 0 0 5px #ddd;
+    margin: 0px;
+    text-align: center;
+    height: 40px;    
+}
+fieldset #save_date_format{
+    margin-left: 100px;
+}
+/*------------------------css phần thống kê----------------------------*/
+.statistic-top-menu{
+	height: 100%;
+	width: auto;
+}
+.statistic-top-menu>li:first-child{
+	padding-left: 0px;
+}
+.statistic-top-menu>li{
+	font-size: 25px;
+	line-height: 40px;
+	text-transform: uppercase;
+	padding: 0 3%;
+	color: #000000;
+	font-weight: 500;
+	border-right: solid 1px #dddede;
+	float: left;
+}
+.statistic-top-menu>li>span{
+	color: #11b2b2;
+}
+.statistic-top-menu>li>span>a{
+	color: #11b2b2;
+}
+.statistic-top-menu>li>.statistic-decrease{
+	color: #ea5436;
+}
+.statistic-top-menu>li>.statistic-decrease>a{
+	color: #ea5436;
+}
+.statistic-top-menu>li>span>a>i{
+	margin: 0px 8px 0 20px;
+}
+.statistic-select-month-year{
+	width: 100%;
+	height: 50px;
+	display: block;
+}
+.statistic-select-month-year>p{
+	float: left;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: 500;
+	margin-right: 10px;
+	line-height: 50px;
+}
+.statistic-select{
+	height: 50px;
+	font-size: 25px;
+	color: #00acac;
+	border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	padding: 0 10px;
+}
+.statistic-detail{
+	width: 100%;
+	height: 175px;
+	display: block;
+	margin-top: 15px;
+}
+.statistic-total-sales{
+	width: 27%;
+	height: 100%;
+	position: relative;
+	background-color: #2d353c;
+	margin-right: 2%;
+	float: left;
+	color: #fff;
+	padding-left: 10px;
+}
+.statistic-total-sales>p{
+	font-size: 35px;
+	text-transform: uppercase;
+}
+.statistic-total-sales>p:first-child{
+	color: #c0c3c5;
+	margin-top: 40px;
+	margin-bottom: 45px;
+}
+.statistic-total-sales>img{
+	position: absolute;
+	top: 15px;
+	right: 25px;
+}
+.statistic-data1{
+	width: 71%;
+	height: 100%;
+	position: relative;
+	background-color: #2d353c;
+	float: left;
+}
+.statistic-content-data1{
+	width: 100%;
+	height: 115px;
+	display: block;
+	border-bottom: solid 1px #c0c3c5;
+}
+.statistic-box{
+	width: 33.2%;
+	height: 100%;
+	padding-left: 28px;
+	position: relative;
+	float: left;
+	display: block;
+	border-right: solid 1px #c0c3c5;
+}
+.statistic-box>img{
+	position: absolute;
+	z-index: 2;
+	top: 30px;
+	right: 40px;
+}
+.statistic-box>p{
+	font-size: 22px;
+	font-weight: 500;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+.statistic-box>p:first-child{
+	margin-top: 25px;
+	margin-bottom: 20px;
+	color: #c0c3c5;
+}
+.statistic-box:last-child{
+	border-right: none;
+}
+.statistic-total-data1{
+	width: 100%;
+	text-align: center;
+	line-height: 64px;
+	font-size: 32px;
+	color: #ffffff;
+}
+/*-------------start css số liệu kế toán-----------------*/
+.statistic-data2{
+	width: 100%;
+	height: auto;
+	display: block;
+	margin-top: 25px;
+}
+.statistic-data2>p {
+	font-size: 25px;
+	text-transform: uppercase;
+	background: url("../images/icon-thue.png") left center no-repeat;
+	background-position: 0px 0px;
+	height: 35px;
+	padding-left: 45px;
+	font-weight: 500;
+	line-height: 35px;
+}
+.statistic-tax{
+	margin-left: 60px;
+	width: 90%;
+}
+.statistic-tax>li{
+	background: url("../images/list.png") left center no-repeat;
+	background-position: 0px 17px;
+	height: 45px;
+	padding-left: 15px;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 45px;
+	width: 100%;
+	margin-top: 5px;
+}
+span.tax1, span.tax2, span.tax3{
+	float: left;
+	display: block;
+	width: 17%;
+}
+.statistic-tax>li>p{
+	width: 83%;
+	float: left;
+	display: block;
+	height: 45px;
+}
+span.tax11{
+	width: 20%;
+	background-color: #384550;
+	height: 45px;
+	text-align: center;
+	font-size: 23px;
+	display: block;
+	float: left;
+	color: #ffffff;
+	border-right: solid 1px #ffffff;
+}
+span.tax12{
+	width: 35%;
+	background-color: #00acac;
+	height: 45px;
+	display: block;
+	float: left;
+}
+span.tax21{
+	width: 25%;
+	background-color: #2087da;
+	height: 45px;
+	display: block;
+	float: left;
+}
+span.tax22{
+	width: 10%;
+	background-color: #91c957;
+	height: 45px;
+	display: block;
+	float: left;
+}
+span.tax31{
+	width: 10%;
+	background-color: #91c957;
+	height: 45px;
+	display: block;
+	float: left;
+}
+span.tax32{
+	width: 25%;
+	background-color: #d7d7d7;
+	height: 45px;
+	display: block;
+	float: left;
+}
+/*-----------------------------end số liệu kế toán--------------*/
+.statistic-data3{
+	width: 100%;
+	height: auto;
+	display: block;
+	margin-top: 25px;
+}
+.statistic-data3>p {
+	font-size: 25px;
+	text-transform: uppercase;
+	background: url("../images/icon-thue.png") left center no-repeat;
+	background-position: 0px 0px;
+	height: 35px;
+	padding-left: 45px;
+	font-weight: 500;
+	line-height: 35px;
+}
+.box-statistic-data3{
+	width: 100%;
+	height: 155px;
+	margin-top: 20px;
+	display: block;
+	background-color: #384550;
+}
+.content-box-statistic-data3{
+	width: 33.2%;
+	height: 100%;
+	position: relative;
+	float: left;
+	border-right: solid 1px #c0c3c5;
+	display: block;
+	padding-left: 22px;
+}
+.content-box-statistic-data3>img{
+	position: absolute;
+	z-index: 2;
+	top: 40px;
+	right: 40px;
+}
+.content-box-statistic-data3>p{
+	font-size: 22px;
+	font-weight: 500;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+.content-box-statistic-data3>p:first-child{
+	margin-top: 40px;
+	margin-bottom: 30px;
+	color: #c0c3c5;
+}
+.content-box-statistic-data3:last-child{
+	border-right: none;
+}
+.statistic-chart{
+	width: 100%;
+	height: auto;
+	background-color: #ffffff;
+	margin-top: 30px;
+	display: inline-block;
+	padding-left: 30px;
+	padding-bottom: 50px;
+}
+.select-chart-year{
+	width: 100%;
+	height: 40px;
+	margin-top: 25px;
+	display: block;
+}
+.select-chart-year>p{
+	float: left;
+	font-size: 25px;
+	font-weight: 500;
+	margin-right: 10px;
+	line-height: 40px;
+}
+.statistic-select2{
+	height: 40px;
+	font-size: 25px;
+	color: #00acac;
+	border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	padding: 0 10px;
+}
+.box-statistic-chart{
+	height: 400px;
+	padding: 20px;
+}
+.note-chart{
+	height: 30px;
+	width: 100%;
+	margin-top: 15px;
+}
+.note-chart>p{
+	height: 30px;
+	width: auto;
+	float: left;
+	font-size: 17px;
+	font-weight: 500;
+	line-height: 30px;
+}
+.note-chart>p>span{
+	width: 65px;
+	height: 30px;
+	display: inline-block;
+	float: left;
+	margin-right: 10px;
+}
+.note-chart>p:first-child>span{
+	background-color: #00acac;
+}
+.note-chart>p:last-child>span{
+	background-color: #f1aa40;
+}
+.note-chart>p:first-child{
+	margin-right: 120px;
+	margin-left: 55px;
+}
+@media (max-width: 1800px) {
+
+	.statistic-top-menu{
+		height: 100%;
+		width: auto;
+	}
+	.statistic-top-menu>li:first-child{
+		padding-left: 0px;
+	}
+	.statistic-top-menu>li{
+		font-size: 18px;
+	}
+	.statistic-top-menu>li>span{
+		color: #11b2b2;
+	}
+	.statistic-top-menu>li>.statistic-decrease{
+		color: #ea5436;
+	}
+	.statistic-top-menu>li>span>a>i{
+		margin: 0px 8px 0 12px;
+	}
+
+	.statistic-select-month-year{
+		height: 35px;
+	}
+	.statistic-select-month-year>p{
+		font-size: 18px;
+		font-weight: 500;
+		margin-right: 10px;
+		line-height: 35px;
+	}
+	.statistic-select{
+		height: 35px;
+		font-size: 18px;
+		padding: 0 10px;
+	}
+	.statistic-detail{
+		height: 115px;
+	}
+	.statistic-total-sales>p{
+		font-size: 25px;
+	}
+	.statistic-total-sales>p:first-child{
+		margin-top: 20px;
+		margin-bottom: 25px;
+	}
+	.statistic-total-sales>img{
+		position: absolute;
+		top: 8px;
+		right: 8px;
+	}
+	.statistic-content-data1{
+		height: 75px;
+	}
+	.statistic-box{
+		padding-left: 20px;
+	}
+	.statistic-box>img{
+		top: 10px;
+		right: 15px;
+	}
+	.statistic-box>p{
+		font-size: 18px;
+	}
+	.statistic-box>p:first-child{
+		margin-top: 15px;
+		margin-bottom: 10px;
+	}
+	.statistic-total-data1{
+		line-height: 40px;
+		font-size: 20px;
+	}
+	/*-------------start css số liệu kế toán-----------------*/
+
+	.statistic-data2>p {
+		font-size: 20px;
+	}
+	.statistic-tax{
+		width: 100%;
+	}
+	.statistic-tax>li{
+		background-position: 0px 13px;
+		height: 35px;
+		padding-left: 15px;
+		font-size: 15px;
+		line-height: 35px;
+		margin-top: 5px;
+	}
+	span.tax1, span.tax2, span.tax3{
+		float: left;
+		display: block;
+		width: 17%;
+	}
+	.statistic-tax>li>p{
+		height: 35px;
+	}
+	span.tax11{
+		height: 35px;
+		font-size: 20px;
+	}
+	span.tax12, span.tax21, span.tax22, span.tax31, span.tax32{
+		height: 35px;
+	}
+	/*-----------------------------end số liệu kế toán--------------*/
+	.statistic-data3{
+		width: 100%;
+		height: auto;
+		display: block;
+		margin-top: 25px;
+	}
+	.statistic-data3>p {
+		font-size: 25px;
+	}
+	.box-statistic-data3{
+		height: 100px;
+		margin-top: 10px;
+	}
+	.content-box-statistic-data3{
+		padding-left: 18px;
+	}
+	.content-box-statistic-data3>img{
+		top: 10px;
+		right: 10px;
+	}
+	.content-box-statistic-data3>p{
+		font-size: 18px;
+	}
+	.content-box-statistic-data3>p:first-child{
+		margin-top: 25px;
+		margin-bottom: 15px;
+		color: #c0c3c5;
+	}
+	.content-box-statistic-data3:last-child{
+		border-right: none;
+	}
+	.statistic-chart{
+		margin-top: 20px;
+		padding-left: 15px;
+		padding-bottom: 20px;
+	}
+	.select-chart-year{
+		height: 35px;
+	}
+	.select-chart-year>p{
+		font-size: 18px;
+		line-height: 35px;
+	}
+	.statistic-select2{
+		height: 35px;
+		font-size: 18px;
+	}
+	.note-chart{
+		height: 30px;
+		width: 100%;
+		margin-top: 5px;
+	}
+}

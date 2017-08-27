@@ -1,0 +1,117 @@
+#add-new .but-add{	
+    cursor:auto !important;	
+}
+#add-new .but-add img{	
+    cursor:pointer !important;	
+}
+#mau-HDtop .but-add{	
+    cursor:none !important;	
+}
+#mau-HDtop .but-add img{	
+    cursor:pointer !important;	
+}
+#mau-HDtop .li_img {
+    float: left;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 1px solid #CCC;
+    background: url(../mau-hoa-don/mau-1.png) center no-repeat;
+    margin-left: 100px;
+}
+#mau-HDtop .li_text {
+    float: left;
+    padding: 25px 0 0 15px;
+}
+#mau-HDtop {
+    float: left;
+    width: 83.7%;
+    height: 70px;
+    text-align: left;
+    margin-top: 7px;
+    padding-left: 10px;
+}
+#mau-HDtop .but-add{
+    float:right; 
+    width:90px; 
+    height:70px; 
+    margin-right:15px; 
+    cursor:pointer;	
+}
+#add-new{
+    float:right; 
+    width:25%; 
+    height:auto; 
+    text-align:left;	
+}
+#add-new .but-add{
+    float:right; 
+    width:90px; 
+    height:70px; 
+    padding:10px 20px 0 20px; 
+    margin-right:15px; 
+    cursor:pointer;	
+}
+#add-new .text-add{
+    float:right; 
+    height:auto; 
+    font-family: "Roboto", Verdana, Geneva, sans-serif; 
+    font-size:25px; 
+    font-weight:600; 
+    padding:35px 0 0 0;	
+}
+#header-wrapper{
+    width:100%; 
+    height:90px; 
+    background-color:#FFF; 
+    background:url(../images/background-top.png) left bottom repeat-x;
+    position:fixed;
+    z-index:9999;
+}
+#admin-setting {
+    display: none;
+    position: fixed;
+    width: 320px;
+    height: auto;
+    right: 1%;
+    background: url(../images/icon-admindown.png) top right no-repeat;
+    background-color: #FFF;
+    box-shadow: 0 0 10px #888;
+    /* border-radius: 4px; */
+    border: 1px solid #2d353c;
+    border-top: 3px solid #2d353c;
+    color: #000;
+    text-align: left;
+    padding: 15px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 25px;
+    z-index: 9999;
+}
+#admin-setting .a_li,#admin-setting .a_chidren { 
+    height: 40px;
+}
+#admin-setting .a_chidren .a_text { 
+    float: left;
+    padding-left: 100px;
+    color: black;
+}
+#admin-setting .a_img {
+    float: left;
+    padding: 10px 0 0 15px;
+}
+#admin-setting .a_text {
+    float: left;
+    padding: 8px 0 0 15px;
+}
+#admin-setting .a_li:hover,#admin-setting .a_chidren:hover{
+    background-color:#d5d5d5;
+    border-radius:4px;
+    cursor:pointer;
+}
+#search .date label.cursor:hover{
+    background-color: #666600;
+    color: white;
+    transition: background 1s;
+    cursor: pointer;
+}
